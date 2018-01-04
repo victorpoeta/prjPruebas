@@ -1,0 +1,79 @@
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}	
+h2,h3,h4 { color: #06C; }
+dl {
+    margin-bottom:50px;
+}
+ 
+dl dt {
+    background-color:#06C;
+    color: white;
+    float:left;
+    font-weight:bold;
+    margin-right:10px;
+    padding:5px;
+    width:150px;
+}
+ 
+dl dd {
+    margin:2px 0;
+    padding:5px 0;
+}
+dl dd ul li  strong {
+	color: #06C;	
+}
+a {
+	color:blue;
+	text-decoration:underline;
+}
+
+.boton {
+	text-align:center;
+	padding:3px;
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	border-top:1px solid #666;
+	border-left:1px solid #666;
+}
+
+fieldset span {
+	margin:20px;
+	color:red;	
+}
+table.mitabla {
+	width:100%;
+	font-size: 12px;
+	border-collapse:collapse;	
+}
+form input,select {
+	font-size:12px;	
+}
+table.mitabla tr td  {
+	
+}
+table.tablaresp {
+	width:100%;	
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+table.tablaresp  tr td {
+	font-size:12px;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+	padding:3px;
+}
+table.tablaresp tr.titulo td {
+	background-color:#AEDFFF;
+	font-weight:bold;
+	text-align:center;	
+}
+table.tablaresp tr td.izq {
+	text-align:left;	
+}
+table.tablaresp tr td.der {
+	text-align:right;	
+}
+table.tablaresp tr td.cen {
+	text-align:center;	
+}

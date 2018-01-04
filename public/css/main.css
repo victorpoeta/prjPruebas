@@ -1,0 +1,46 @@
+body {
+	margin-top: 85px;
+	font-family: 'Arial';
+	font-size: 12px;
+}
+
+.menu-Principal {
+	height: 5%;
+	background-color:lightblue;
+	text-transform:capitalize;
+	min-height: 30px;
+	font-size:15px;
+}
+.menu-Principal a {
+	text-decoration: none;
+	color:blue;
+}
+.menu-Principal a:hover {
+	color:white;
+	background-color: royalblue;
+}
+
+.navbar {
+	min-height: 40px;
+	text-align: justify;
+}
+
+.headerr, .menuPrincipal, .footerr {
+	padding-left:5px; 
+}
+
+a {
+	color:darkblue; 
+}
+
+.title1 {
+	font-weight: bold;
+	font-size:20px;
+	color: royalblue;
+	text-align: center;
+	padding:5px 5px 5px 5px;
+}
+
+.table thead {
+	background-color:AliceBlue;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <libro seccion="favoritos">
+    <autor>Paulo Coelho</autor>
+    <titulo>El Alquimista</titulo>
+    <anio>1988</anio>
+    <editorial>Editorial Grijalbo</editorial>
+  </libro>
+</biblioteca>

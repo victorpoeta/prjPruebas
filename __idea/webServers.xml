@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="26e24f98-132c-45a3-adb3-b4090132dc6e" name="Desarrollo 3 - Baaszoom" url="http://desarrollo3.grupozoom.com">
+        <fileTransfer host="desarrollo3.grupozoom.com" port="22" rootFolder="/var/www/html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7f43707c-ddcd-471b-bfca-3be963142ad5" name="Desarrollo" url="http://desarrollo.grupozoom.com">
+        <fileTransfer host="desarrollo.grupozoom.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

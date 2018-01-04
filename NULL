@@ -1,0 +1,12 @@
+
+Warning: Module 'openssl' already loaded in Unknown on line 0
+Running scheduled command: "C:\xampp\php\php.exe" "artisan" info_pagospendientes > "NUL" 2>&1 &
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+
+Warning: Module 'openssl' already loaded in Unknown on line 0
+Running scheduled command: "C:\xampp\php\php.exe" "artisan" info_pagospendientes > "NUL" 2>&1 &
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+
+Warning: Module 'openssl' already loaded in Unknown on line 0
+Running scheduled command: "C:\xampp\php\php.exe" "artisan" info_pagospendientes > "NUL" 2>&1 &
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
