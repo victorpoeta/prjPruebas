@@ -668,13 +668,13 @@ class consumirWSController extends Controller
 		return $a;*/
 
 		$res = \Artisan::call('cache:clear');
-
 		$res2 = \Artisan::call('view:clear');
 
 		return ["Cache borrada exitosamente"];
 	}
 	
 	
+	// Función para mostrar los registros de pagos electronicos
 	public function consultarPagosE(Request $request) {
 
 		$url = "http://desarrollo3.grupozoom.com/baaszoom/public/canguroazul/mobileapp/getInfoPagoWs";
@@ -683,7 +683,7 @@ class consumirWSController extends Controller
         curl_setopt($cH, CURLOPT_URL, $url);
         curl_setopt($cH, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($cH, CURLOPT_POST, 1);
-        curl_setopt($cH, CURLOPT_POSTFIELDS, ['token' => 'Op5TiUuFM611C3KL88Naw9tcRQ7S4I53']);
+        curl_setopt($cH, CURLOPT_POSTFIELDS, array('token' => 'Op5TiUuFM611C3KL88Naw9tcRQ7S4I53'));
 		//curl_setopt($cH, CURLOPT_SSL_VERIFYPEER, 0);
         //curl_setopt($cH, CURLOPT_SSL_VERIFYHOST, 0);
         //curl_setopt($cH, CURLOPT_PROXY, '10.0.98.3');
