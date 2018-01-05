@@ -45,7 +45,7 @@ class PagosController extends Controller
 
     public function pruebaDistribucionMontos(Request $request) {
         //$monto = ['1306.13','-250'];
-        $monto = ['1250','80','-250'];
+        $monto = ['1250.25','80','-250', '102.52'];
 
         $montoTotal = $request->input('montoTotal');
 

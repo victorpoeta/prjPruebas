@@ -76,9 +76,7 @@ class JWTController extends Controller
         } else {
             try {
                 //$token = JWTAuth::toUser($request->input('token'));
-
 		        // $token = JWTAuth::parseToken()->authenticate();
-
 
             	//// $token = JWTAuth::getToken();
             	$token = JWTAuth::decode(JWTAuth::getToken());
