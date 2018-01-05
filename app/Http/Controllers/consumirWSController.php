@@ -653,12 +653,12 @@ class consumirWSController extends Controller
 		$cadena = preg_replace('/[^A-Za-z0-9\-\s\,\.\#\(\)]/', '', $cadena); 
 		$cadena = trim(strtoupper($cadena));
 		
-		//return $cadena;
+		return $cadena;
 
-		$url = 'http://webservices.grupozoom.com/baaszoom/public/canguroazul/login?usuario=admin&claveenc=123456';
+		/*$url = 'http://webservices.grupozoom.com/baaszoom/public/canguroazul/login?usuario=admin&claveenc=123456';
 		$params = parse_url($url);
 		parse_str($params['query'], $params2);
-		dump(parse_url($url), $params2);
+		dump(parse_url($url), $params2);*/
 
 	}
 
